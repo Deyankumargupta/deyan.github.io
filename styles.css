@@ -46,3 +46,70 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+/* Add this to your existing CSS */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 20px auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #2c3e50;
+    color: white;
+    position: relative; /* Optional: For advanced styling */
+}
+
+/* Experience Section */
+#experience .experience-item {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.duration {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Projects Section */
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tech-stack {
+    color: #3498db;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 15px;
+    line-height: 1.8;
+}
